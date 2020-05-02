@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background-color: #4f91cd;
+    height: 200px;
+    width: 100%;
+    
+     position: sticky;
+}
+.logo{
+    color: silver;
+    font-size: 50px;
+    line-height: 220px;
+    padding-left: 150px;
+    font-weight: bolder;
+    margin: 30px;
+
+}
+nav ul{
+    float: left;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    
+}
+button{
+    float: right ;
+background-color: #4f91cd;
+    color: white;
+    padding: 9px 25px;
+margin-top: 80px;
+
+}
+
+button :hover{
+    background-color: #98c9f4;
+    padding: 9px 30px;
+    
+}
+
+body{
+    margin: 0;
+}
+.bag-image{
+       background-image: url(https://raw.githubusercontent.com/techkaro-circle/tk-class02-task/master/mockup/Main%20Page%20Image.PNG);
+background-size: cover;
+background-position: center;
+height: 100vh;
+padding: 200px;
+margin-bottom:20px ;
+margin-top: 40px;
+}
+h1 ,h2{
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    color: #db6268;
+    
+}
+section p{
+    background-color: #7aa120;
+    height:150px ;
+    width:50%px ;
+    margin-top: 50px;
+}
+
+p{
+    
+      padding:0px;
+      text-align: center;
+      font-size: 30px;
+      color: white;
+}
+
+
+
+
+
+
