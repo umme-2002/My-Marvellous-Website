@@ -80,7 +80,7 @@ h1 ,h2{
 section p{
     background-color: #7aa120;
     height:150px ;
-    width:50%px ;
+    width:100% ;
     margin-top: 50px;
 }
 
@@ -91,6 +91,90 @@ p{
       font-size: 30px;
       color: white;
 }
+.menue{
+    width: 800px;
+    margin: 50px auto 0;
+    display: table;
+    box-sizing: border-box;
+}
+.row{
+    margin: 20px 0;
+}
+.column{
+    background: black;
+    display: table-cell;
+    padding: 5px;
+    width: 33.3333%;
+    text-align: center;
+    color: #00bbff;
+    vertical-align: middle;
+    border-left: 10px solid  white;
+    border-right: 10px solid white;
+}
+.colimn h4{
+color: #00bbff;
+}
+.column p{
+    color: darkgray;
+}
+.row:nth-child(1) .column:nth-child(1){
+    background: #e7ecf0;
+}
+.row:nth-child(1) .column:nth-child(2){
+    background:  #e7ecf0;
+}
+.row:nth-child(1) .column:nth-child(3){
+    background:  #e7ecf0;
+}
+.row:nth-child(2) .column:nth-child(1){
+    background: #620e6e;
+}
+.row:nth-child(2) .column:nth-child(2){
+    background:  #4385c1;
+}
+.row:nth-child(2) .column:nth-child(3){
+    background:  #e7ecf0;
+}
+ #child1{
+    background: #620e6e;
+ }
+#child2{
+    background:  #4385c1;
+}
+
+
+ .div2 button{
+    color:#4385c1 ;
+    background-color: white;
+    border: 3px solid #4385c1;
+    padding: 20px 30px;
+    border-radius: 8px;
+    cursor: w-resize;
+    
+    display:flex;
+}
+.footer{
+    width: 100%;
+    display: table;
+    box-sizing: border-box;
+    
+    
+}
+.footer-row{
+    margin: 0;
+}
+
+.footer-column{
+    background: black;
+    display: table-cell;
+    height: 300px;
+    width: 33.3333%;
+    text-align: center;
+    color:white;
+    
+}
+
+
 
 
 
