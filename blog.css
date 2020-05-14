@@ -18,6 +18,7 @@ h3{
 }
 h3:hover{
     cursor: pointer;
+    color:#ff8700;
 }
 p{
     color: #a09898;
@@ -27,9 +28,18 @@ p{
 figcaption{
     text-align: center;
 }
+figcaption:hover{
+    background-color:lemonchiffon;
+}
 figure{
     display: inline-block;
+    
 }
+
 a{
     text-decoration: none;
+}
+img{
+    padding: 1.5em;
+    border-radius: 5px;
 }
